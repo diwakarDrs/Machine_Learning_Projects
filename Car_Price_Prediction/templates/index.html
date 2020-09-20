@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style type="text/css">
+			body { background: #c034eb !important; }
+   </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <h1 class="text-center">Car Price Prediction</h1>
+	
+</head>
+
+
+<!------ Include the above in your HEAD tag ---------->
+<body >
+<div class="container" style="font-family:Tahoma">
+<div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="card" style="background: #cba6f1">
+                            <div class="card-header" style="background: #b17aea"><h5>PREDICTIVE ANALYSIS</h5></div>
+                            <div class="card-body">
+
+                                <form class="form-horizontal" method="post" action="{{ url_for('predict')}}">
+
+                                    <div class="form-group">
+                                        <label for="name" class="cols-sm-2 control-label">Year</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                                <input type="number" class="form-control" name="Year" id="first" required="required" placeholder="Enter the year of make" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="cols-sm-2 control-label">What is the Showroom Price?(In lakhs)</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                                <input type="text" class="form-control" name="Present_Price" id="second" placeholder="Enter the Showroom Price" required="required"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="username" class="cols-sm-2 control-label">How Many Kilometers Drived</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                                                <input type="text" class="form-control" name="Kms_Driven" id="third" placeholder="Enter KM drived" required="required" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password" class="cols-sm-2 control-label">How much owners previously had the car(0 or 1 or 3) ?</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                                <input type="type" id="fourth" name="Owner" class="form-control" placeholder="Enter number of owners prevoiusly owned" />
+                                            </div>
+                                        </div>
+                                    </div>
+									
+									<div class="form-group">
+                                        <label for="password" class="cols-sm-2 control-label">What Is the Fuel type?</label>
+                                        <div class="cols-sm-10">
+                                            <select class="form-control" name="Fuel_Type_Petrol" id="fuel" required="required">
+												<option value="Petrol">Petrol</option>
+												<option value="Diesel">Diesel</option>
+                                            </select>
+                                        </div>
+                                    </div>
+									
+									
+									<div class="form-group">
+                                        <label for="password" class="cols-sm-2 control-label">Are you A Dealer or Individual</label>
+                                        <div class="cols-sm-10">
+                                            <select class="form-control" name="Seller_Type_Individual" id="resea" required="required">
+												<option value="Petrol">Dealer</option>
+												<option value="Diesel">Individual</option>
+                                            </select>
+                                        </div>
+                                    </div>
+									
+									
+                                    <div class="form-group">
+                                        <label for="password" class="cols-sm-2 control-label">Transmission type</label>
+                                        <div class="cols-sm-10">
+                                            <select class="form-control"  name="Transmission_Mannual" id="research" required="required">
+												<option value="Petrol">Manual Car</option>
+												<option value="Diesel">Automatic</option>
+                                            </select>
+                                        </div>
+                                    </div>
+									
+									
+                                    <div class="form-group ">
+                                        <button id='sub' type="submit" class="btn btn-primary btn-lg btn-block login-button">Calculate the Selling Price</button>
+                                    </div>
+                                    
+                                </form>
+                            </div>
+								<br><h4 class="text-success text-center" >{{ prediction_text }}</h4>
+                        </div>
+                    </div>
+                </div>
+</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+			
+
+</body>
+
+</html>
