@@ -22,7 +22,7 @@ https://car-price-prediction01.herokuapp.com/
 * DataSet is downloaded from [Kaggle](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho)
 * DataPreprocessing is done to  clean and extract useful features to built a good model with better accuracy.
 * Tested with Linear Regressor, Decission Tree Regressor and  Random Forest Regressors.
-* Based on simple cross_val_score, Random Forest Regressors is selected and further optimized  using RandomizedCV to reach the best model.
+* Based on Cross_Val_Score, Random Forest Regressors is selected and further optimized  using RandomizedCV to reach the better accuracy.
 * Built a client facing API using flask 
 
 ## Resources Used 
