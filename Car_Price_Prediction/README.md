@@ -9,7 +9,7 @@
   * [Exploratory Data Analysis](#exploratory-data-analysis)
   * [Model Building](#model-building)
   * [Model performance](#model-performance)
-  * [Deployement on Heroku](#heroku-webApp-deployment)
+  * [Deployment on Heroku](#heroku-webApp-deployment)
   * [Further Changes to be Done](#further-changes-to-be-done)
   
 ## Demo
