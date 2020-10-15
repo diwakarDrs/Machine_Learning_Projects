@@ -47,7 +47,7 @@ python app.py
 **Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 ## Data Cleaning
-After downlaoding the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+After downloading the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
 
 *	To get overview of datasets, i had used pandas commands like shape,describe, unique.
 *	Checked for any missing values.
