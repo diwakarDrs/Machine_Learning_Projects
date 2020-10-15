@@ -3,14 +3,14 @@
 ## Table of Content
   * [Demo](#demo)
   * [Overview](#project-overview)
-  * [Resources Used](#Resources Used)
-  * [Local Installation](#Local Installation)
-  * [Data Cleaning](#Data Cleaning)
-  * [Exploratory Data Analysis](#Exploratory Data Analysis)
-  * [Model Building](#Model Building)
-  * [Model performance](#Model performance)
-  * [Deployement on Heroku](#Heroku WebApp Deployment)
-  * [Further Changes to be Done](#Further Changes to be Done)
+  * [Resources Used](#resources-used)
+  * [Local Installation](#local-installation)
+  * [Data Cleaning](#data-cleaning)
+  * [Exploratory Data Analysis](#exploratory-data-analysis)
+  * [Model Building](#model-building)
+  * [Model performance](#model-performance)
+  * [Deployement on Heroku](#heroku-webApp-deployment)
+  * [Further Changes to be Done](#further-changes-to-be-done)
   
 ## Demo
 ![alt text](ReadmeResources/car_price_prediction_herokuapp.png "Herokuapp")
