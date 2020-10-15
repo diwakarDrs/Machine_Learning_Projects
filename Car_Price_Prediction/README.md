@@ -1,8 +1,8 @@
 # Used Car Price Estimator: 
  ![Python 3.7](https://img.shields.io/badge/Python-3.7-brightgreen.svg) ![library](https://img.shields.io/badge/Library-sklearn-orange.svg)
 ## Table of Content
-  * [Demo](# demo)
-  * [Overview](#Project Overview)
+  * [Demo](#demo)
+  * [Overview](#project-overview)
   * [Resources Used](#Resources Used)
   * [Local Installation](#Local Installation)
   * [Data Cleaning](#Data Cleaning)
