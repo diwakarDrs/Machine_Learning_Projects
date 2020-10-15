@@ -32,7 +32,7 @@ https://car-price-prediction01.herokuapp.com/
 ## Local Installation
 1. Clone the Repo by going to your local Git Client and pushing in the command: 
 ```sh
-https://github.com/diwakarDrs/Malaria-Detection.git
+https://github.com/diwakarDrs/Car_Price_Prediction.git
 ```
 2. Install the Packages: 
 ```sh
