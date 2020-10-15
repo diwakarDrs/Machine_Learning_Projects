@@ -13,7 +13,7 @@
   * [Further Changes to be Done](#Further Changes to be Done)
   
 ## Demo
-![alt text](https://github.com/ "Salary by Position")
+![alt text](ReadmeResources/car_price_prediction_herokuapp.png "Herokuapp")
 
 https://car-price-prediction01.herokuapp.com/
 
