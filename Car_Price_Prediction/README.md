@@ -57,10 +57,11 @@ After downlaoding the data, I needed to clean it up so that it was usable for ou
 *	Removed  unncessary columns.
 
 ## Exploratory Data Analysis
-I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
-
+I looked at the distributions and realationship of the data .Below are a few highlights from the pivot tables. 
+### Correlations
 ![alt text](ReadmeResources/corr.png "Correlations")
-![alt text](ReadmeResources/feature_imp.png "Features Importance")
+### Features Importance
+![alt text](ReadmeResources/feature_imp.PNG "Features Importance")
 
 ## Model Building 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
