@@ -9,7 +9,7 @@
   * [Exploratory Data Analysis](#exploratory-data-analysis)
   * [Model Building](#model-building)
   * [Model performance](#model-performance)
-  * [Deployment on Heroku](#heroku-webApp-deployment)
+  * [Deployment on Heroku](#deployment-on-Heroku)
   * [Further Changes to be Done](#further-changes-to-be-done)
   
 ## Demo
@@ -92,7 +92,7 @@ Again optimize the Random Forest model with RandomizedCV  to check for least err
 In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values for Used Cars and returns an estimated Price. 
 
 
-### Heroku WebApp Deployment
+### Deployment on Heroku
 
 https://car-price-prediction01.herokuapp.com/
 
