@@ -13,7 +13,12 @@
   * [Further Changes to be Done](#further-changes-to-be-done)
   
 ## Demo
-![alt text](ReadmeResources/car_price_prediction_herokuapp.png "Herokuapp")
+
+
+ <p align='center'>
+  <img src="https://github.com/diwakarDrs/Machine_Learning_Projects/blob/master/Car_Price_Prediction/ReadmeResources/car_price_prediction_herokuapp.png" width = 500 alt="Herokuapp">
+  
+ </p>
 
 https://car-price-prediction01.herokuapp.com/
 
